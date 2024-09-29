@@ -1,6 +1,3 @@
-# MLAssignment2
-# [ML Report 2.pdf](https://github.com/user-attachments/files/16695437/ML.Report.2.pdf)
-
 In this project, I focused on implementing and evaluating Support Vector Machines (SVM) for classification tasks. I tackled several key challenges, starting with binary classification, where I implemented an SVM from scratch using the Sequential Minimal Optimization (SMO) algorithm. This allowed me to solve the quadratic programming problem and find the optimal decision boundary that separates the classes with maximum margin. I used both linear and polynomial kernels to classify the data and compared my implementation with Scikit-learn’s LinearSVC, ensuring that my custom model aligned well with industry-standard libraries.
 
 Next, I explored non-linear SVMs using a polynomial kernel, which transformed the data into higher dimensions, allowing me to classify data that was not linearly separable. I also addressed the challenge of ensuring that the kernel matrix was positive semi-definite, which is crucial for the optimization process in SVMs.
